@@ -31,7 +31,7 @@ class Quack(queue):
 		self.thestack.insert(0, object)
 
 ###############################
-list_a = ['luffy', 'zoro', 'sanji', 'law']
+list_a = ['luffy', 'zoro', 'sanji', 'law', 'chopper']
 q = Quack(list_a)
 print q.thestack
 q.pop()
